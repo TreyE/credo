@@ -1,4 +1,31 @@
-# Credo [![Build Status](https://travis-ci.org/rrrene/credo.svg?branch=master)](https://travis-ci.org/rrrene/credo) [![Inline docs](https://inch-ci.org/github/rrrene/credo.svg?branch=master)](https://inch-ci.org/github/rrrene/credo) [![Hex Version](https://img.shields.io/hexpm/v/credo.svg)](https://hex.pm/packages/credo) [![ElixirWeekly](https://img.shields.io/badge/featured-ElixirWeekly-a054ff.svg)](https://elixirweekly.net)
+# Credo Plus (is really just Credo Plus Stuff)
+
+Credo Plus is an extended version of [Credo](https://github.com/rrrene/credo) that includes features not available in the base tool.  It is not compatible with a simultaneous use of Credo.
+
+Full credit for everything except the extensions goes to [René Föhring](https://github.com/rrrene).
+All logos, hard work, everything - are his.
+
+The eventual goal is to fold these features into Credo once the plugin system becomes available and the original author begins accepting pull requests.
+
+## New Features
+
+### New Command: Report Card
+
+report_card - generates a report card grading your modules.
+It supports both console and HTML output formats.
+The HTML output will add a file in credo/index.html.
+
+### New Check: ExCoveralls Integration
+
+New optional check: `Credo.Check.Warning.ExCoverallsUncovered`
+
+If this check is configured to run, and you have also generated a
+previous "cover/excoveralls.json" file, it will search for files missing
+test coverage.
+
+The check is disabled by default, and will need to be added to your credo configuration.
+
+# Credo
 
 Credo is a static code analysis tool for the Elixir language with a focus on teaching and code consistency.
 

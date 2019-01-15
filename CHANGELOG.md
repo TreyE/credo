@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.0 - Credo Plus
+- Add Report Card Command
+- Add Optional Coveralls Integration
+
 ## 1.0.0
 
 - Improve documentation

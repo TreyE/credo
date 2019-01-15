@@ -3,18 +3,18 @@ defmodule Credo.Mixfile do
 
   def project do
     [
-      app: :credo,
-      version: "1.0.0",
+      app: :credo_plus,
+      version: "1.1.0",
       elixir: ">= 1.4.0",
       escript: [main_module: Credo.CLI],
       build_embedded: Mix.env() == :prod,
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       test_coverage: [tool: Coverex.Task],
-      name: "Credo",
-      description: "A static code analysis tool with a focus on code consistency and teaching.",
+      name: "Credo Plus",
+      description: "Really just Credo. Plus some additional functionality.",
       package: package(),
-      source_url: "https://github.com/rrrene/credo",
+      source_url: "https://github.com/TreyE/credo",
       # The main page in the docs
       docs: [main: "Credo", logo: "assets/logo.png", extras: ["README.md"]]
     ]
@@ -30,11 +30,11 @@ defmodule Credo.Mixfile do
         "README.md",
         "LICENSE"
       ],
-      maintainers: ["René Föhring"],
+      maintainers: ["Trey Evans", "René Föhring"],
       licenses: ["MIT"],
       links: %{
-        "GitHub" => "https://github.com/rrrene/credo",
-        "Changelog" => "https://github.com/rrrene/credo/blob/master/CHANGELOG.md"
+        "GitHub" => "https://github.com/TreyE/credo",
+        "Changelog" => "https://github.com/TreyE/credo/blob/master/CHANGELOG.md"
       }
     ]
   end
