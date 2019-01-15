@@ -177,17 +177,6 @@ defmodule Credo.CLI.Command.ReportCard.Output.Html do
       background: #323543;
         padding: 5px 0;
     }
-    #logo {
-      background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22144%22%20height%3D%22144%22%20viewBox%3D%220%200%20144%20144%22%3E%3Cg%20fill%3D%22%23FFF%22%3E%3Cpath%20d%3D%22M93.548%2037.327L69.856%2061.02l14.09%2014.09%209.602-9.6%2027.243%2027.243%2014.09-14.092M65.483%2065.393l-14.03-14.03-35.78%2035.783-5.554%205.552%2014.09%2014.09%205.553-5.552%2018.14-18.138%203.55-3.552%2014.03%2014.028%2013.214%2013.216%2014.09-14.093-13.215-13.213%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E') center center no-repeat;
-      background-size: 35px 40px;
-      height: 40px;
-      width: 40px;
-      display: inline-block;
-      overflow: hidden;
-      text-indent: -99999px;
-      color: #fff;
-      vertical-align: middle;
-    }
     #top h1 {
       display: inline-block;
       font-size: 16px;
